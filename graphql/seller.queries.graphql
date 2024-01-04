@@ -1,0 +1,13 @@
+query GetSellerDetailsById($id: ID!) {
+  getSellerDetailsById(id: $id) {
+    id
+    firstName
+    lastName
+    email
+    contact
+    country
+    address
+    shopName
+    shopAddress
+  }
+}
